@@ -2,5 +2,9 @@ language: java
 jdk:
   - oraclejdk8
 notifications:
-  webhooks: 
-    - https://hooks.pubu.im/services/qy81wdpr6zevf2p
+  webhooks:
+    urls:
+      - https://hooks.pubu.im/services/qy81wdpr6zevf2p
+    on_success: [always]
+    on_failure: [always]
+    on_start: [always]
