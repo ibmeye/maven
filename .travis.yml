@@ -1,3 +1,6 @@
 language: java
 jdk:
   - oraclejdk8
+
+notifications:
+  webhooks: https://hooks.pubu.im/services/qy81wdpr6zevf2p
