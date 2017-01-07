@@ -4,6 +4,7 @@ jdk:
   - oraclejdk8
 
 notifications:
+
   webhooks: 
     urls:
       - https://hooks.pubu.im/services/qy81wdpr6zevf2p
